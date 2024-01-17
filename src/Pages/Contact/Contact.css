@@ -37,7 +37,12 @@
     font-size:var(--small-font-size);
     font-weight: var(--weight-500);
 }
-
+.contact__info .info__desc a{
+    font-family: var(--body-font);
+    font-size:var(--small-font-size);
+    font-weight: var(--weight-500);
+    color:var(--text-color);
+}
 .contact__socials {
     display: flex;
     column-gap: 16px;
