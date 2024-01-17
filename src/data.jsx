@@ -93,7 +93,7 @@ export const personalInfo = [
     id: 6,
     title: 'Address : ',
     description:
-      'No.113,M,K.Lala Compound,,60 Feet Road,, Dharavi,,Mumbai,Maharashtra-400017',
+      'No.113,M,K.Lala Compound,,60 Feet Road,, Mahim[],,Mumbai,Maharashtra-400017',
   },
 
   {
@@ -189,9 +189,11 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2018',
+    // title:
+    //   'Diploma Mechanical Engineering <span> H.J  Theem College of Engineering </span>',
+    // desc: 'University of Mumbai',
     title:
-      'Diploma Mechanical Engineering <span> H.J  Theem College of Engineering </span>',
-    desc: 'University of Mumbai',
+      "BscIT (persuing)<span>ANJUMAN-I-ISLAM'S AKBAR PEERBHOY COLLEGE</span>",
   },
 
   {
