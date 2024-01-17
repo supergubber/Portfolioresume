@@ -10,10 +10,10 @@ const Homepage = () => {
       <div className='home__content'>
         <div className='home__data'>
           <h1 className='home__title'>
-            <span>I am Rizwan Khan.</span> Web Developer
+            <span>I am Khan Rizwan .</span> Web Developer
           </h1>
           <p className='home__description'>
-            I am RizwanKhan base web Developer & front-end developer focused on
+            I am Khan Rizwan base web Developer & front-end developer focused on
             crafting clean & user-friendly experiences, I am passionate about
             building excellent software that improves the lives of those around
             me.

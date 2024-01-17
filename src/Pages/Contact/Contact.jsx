@@ -29,7 +29,11 @@ const Contact = () => {
               <FaEnvelopeOpen className='info__icon' />
               <div>
                 <span className='info__title'>Mail Me</span>
-                <h4 className='info__desc'>super047240@gmail.com</h4>
+                <h4 className='info__desc'>
+                  <a href='mailto:super047240@gmail.com'>
+                    super047240@gmail.com
+                  </a>
+                </h4>
               </div>
             </div>
             <div className='info__item'>
