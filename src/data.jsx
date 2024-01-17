@@ -188,7 +188,7 @@ export const resume = [
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2018',
+    year: '2023',
     // title:
     //   'Diploma Mechanical Engineering <span> H.J  Theem College of Engineering </span>',
     // desc: 'University of Mumbai',
