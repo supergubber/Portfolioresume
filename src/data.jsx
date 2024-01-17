@@ -302,7 +302,7 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Amazon-clone',
       },
       {
         icon: <FaGithub />,
