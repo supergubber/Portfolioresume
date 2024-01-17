@@ -37,7 +37,7 @@
     font-size:var(--small-font-size);
     font-weight: var(--weight-500);
 }
-.contact__info .info__desc a{
+.contact__info .info__desc a,.contact__inf .info__title a{
     font-family: var(--body-font);
     font-size:var(--small-font-size);
     font-weight: var(--weight-500);

@@ -40,7 +40,7 @@ const Contact = () => {
               <FaPhoneSquareAlt className='info__icon' />
               <div>
                 <span className='info__title'>Call Me</span>
-                <h4 className='info__desc'>7666047240</h4>
+                <h4 className='info__desc'><a href='tel:7666047240'>7666047240</a></h4>
               </div>
             </div>
             <div className='contact__socials'>
