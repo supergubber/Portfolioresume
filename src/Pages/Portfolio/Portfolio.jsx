@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <section className='portfolio section'>
       <h2 className='section__title'>
-        welcome to <span>Portfolio Page</span>
+        welcome to <span>Portfolio</span>
       </h2>
       <div className='portfolio__container container grid'>
         {portfolio.map((item) => {
