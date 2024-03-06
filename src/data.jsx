@@ -12,6 +12,8 @@ import { FaGithub } from 'react-icons/fa'
 
 import Work1 from './assets/project-1.png'
 import Work2 from './assets/project-2.png'
+import Work3 from './assets/project-3.png'
+import Work4 from './assets/project-4.png'
 // import Work3 from './assets/project-3.jpeg'
 // import Work4 from './assets/project-4.jpeg'
 // import Work5 from './assets/project-5.jpg'
@@ -316,61 +318,61 @@ export const portfolio = [
     ],
   },
 
-  // {
-  //   id: 3,
-  //   img: Work3,
-  //   title: 'Video Editing',
-  //   details: [
-  //     {
-  //       icon: <FiFileText />,
-  //       title: 'Project : ',
-  //       desc: 'Video',
-  //     },
-  //     {
-  //       icon: <FiUser />,
-  //       title: 'Client : ',
-  //       desc: 'Dribble',
-  //     },
-  //     {
-  //       icon: <FaCode />,
-  //       title: 'Language : ',
-  //       desc: 'Adobe Premium',
-  //     },
-  //     {
-  //       icon: <FiExternalLink />,
-  //       title: 'Preview : ',
-  //       desc: 'www.dribble.com',
-  //     },
-  //   ],
-  // },
+  {
+    id: 3,
+    img: Work3,
+    title: 'Weather App',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Weather-App',
+      },
+      {
+        icon: <FaGithub />,
+        title: 'Git : ',
+        desc: 'https://github.com/supergubber/weatherApp.git',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML CSS and js',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://weather-app-six-bice-24.vercel.app/',
+      },
+    ],
+  },
 
-  // {
-  //   id: 4,
-  //   img: Work4,
-  //   title: 'Video Editing',
-  //   details: [
-  //     {
-  //       icon: <FiFileText />,
-  //       title: 'Project : ',
-  //       desc: 'Video',
-  //     },
-  //     {
-  //       icon: <FiUser />,
-  //       title: 'Client : ',
-  //       desc: 'Dribble',
-  //     },
-  //     {
-  //       icon: <FaCode />,
-  //       title: 'Language : ',
-  //       desc: 'Adobe Premium',
-  //     },
-  //     {
-  //       icon: <FiExternalLink />,
-  //       title: 'Preview : ',
-  //       desc: 'www.dribble.com',
-  //     },
-  //   ],
-  // },
+  {
+    id: 4,
+    img: Work4,
+    title: 'Todo App',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'TODO-App',
+      },
+      {
+        icon: <FaGithub />,
+        title: 'Git : ',
+        desc: 'https://github.com/supergubber/todoJavascropt.git',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'HTML CSS and js',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://todo-javascropt.vercel.app/',
+      },
+    ],
+  },
 
   // {
   //   id: 5,
