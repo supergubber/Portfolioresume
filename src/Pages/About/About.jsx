@@ -20,7 +20,7 @@ const About = () => {
             <ul className='info__list grid'>
               <Info />
             </ul>
-            <a href={CV} download className='button'>
+            <a href={CV} download='KhanRizwan_resume' className='button'>
               Download CV{' '}
               <span className='button__icon'>
                 <FaDownload />
