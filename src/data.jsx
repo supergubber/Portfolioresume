@@ -15,9 +15,9 @@ import Work2 from './assets/project-2.png'
 import Work3 from './assets/project-3.png'
 import Work4 from './assets/project-4.png'
 // import Work3 from './assets/project-3.jpeg'
-// import Work4 from './assets/project-4.jpeg'
-// import Work5 from './assets/project-5.jpg'
-// import Work6 from './assets/project-6.jpg'
+import Work5 from './assets/project-5.png'
+import Work6 from './assets/project-6.png'
+import Work7 from './assets/project-7.png'
 
 import Theme1 from './assets/purple.png'
 import Theme2 from './assets/red.png'
@@ -184,12 +184,12 @@ export const resume = [
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2023',
+    year: '2025',
     // title:
     //   'Diploma Mechanical Engineering <span> H.J  Theem College of Engineering </span>',
     // desc: 'University of Mumbai',
     title:
-      "BscIT (persuing)<span>ANJUMAN-I-ISLAM'S AKBAR PEERBHOY COLLEGE</span>",
+      "BscIT (completed)<span>ANJUMAN-I-ISLAM'S AKBAR PEERBHOY COLLEGE</span>",
   },
 
   {
@@ -250,13 +250,23 @@ export const skills = [
 
   {
     id: 7,
-    title: 'Tailwind',
+    title: 'Tailwind css',
     percentage: '55',
   },
 
   {
     id: 8,
-    title: 'Redux',
+    title: 'Redux Toolkit',
+    percentage: '45',
+  },
+  {
+    id: 9,
+    title: 'Node js',
+    percentage: '50',
+  },
+  {
+    id: 10,
+    title: 'Express js',
     percentage: '45',
   },
 ]
@@ -349,7 +359,7 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Todo App',
+    title: 'Todo App JAVASCRIPT',
     details: [
       {
         icon: <FiFileText />,
@@ -374,57 +384,88 @@ export const portfolio = [
     ],
   },
 
-  // {
-  //   id: 5,
-  //   img: Work5,
-  //   title: 'Landing Page',
-  //   details: [
-  //     {
-  //       title: 'Project : ',
-  //       desc: 'Website',
-  //     },
-  //     {
-  //       title: 'Client : ',
-  //       desc: 'Dribble',
-  //     },
-  //     {
-  //       title: 'Language : ',
-  //       desc: 'React JS, Node JS',
-  //     },
-  //     {
-  //       title: 'Preview : ',
-  //       desc: 'www.dribble.com',
-  //     },
-  //   ],
-  // },
+  {
+    id: 5,
+    img: Work5,
+    title: 'Todo App MERN STACK',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Website : ',
+        desc: 'TODO-App',
+      },
+      {
+        icon: <FaGithub />,
+        title: 'Git : ',
+        desc: 'https://github.com/supergubber/marncrud',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'MERN sTACK',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://marncrud.onrender.com/',
+      },
+    ],
+  },
+  {
+    id: 6,
+    img: Work6,
+    title: 'E-commerce MERN STACK',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Website : ',
+        desc: 'E-commerce',
+      },
+      {
+        icon: <FaGithub />,
+        title: 'Git : ',
+        desc: 'https://github.com/supergubber/ecommerce-store-marn',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'MERN sTACK',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://ecommerce-store-marn.onrender.com',
+      },
+    ],
+  },
 
-  // {
-  //   id: 6,
-  //   img: Work6,
-  //   title: 'Photo Editing',
-  //   details: [
-  //     {
-  //       icon: <FiFileText />,
-  //       title: 'Project : ',
-  //       desc: 'Photo',
-  //     },
-  //     {
-  //       icon: <FiUser />,
-  //       title: 'Client : ',
-  //       desc: 'Dribble',
-  //     },
-  //     {
-  //       icon: <FaCode />,
-  //       title: 'Language : ',
-  //       desc: 'Adobe Photoshop',
-  //     },
-  //     {
-  //       icon: <FiExternalLink />,
-  //       title: 'Preview : ',
-  //       desc: 'www.dibble.com',
-  //     },
-  //   ],
-  // },
+  {
+    id: 7,
+    img: Work7,
+    title: 'Advance-Auth MARN STACK',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Website : ',
+        desc: 'Advance-Auth',
+      },
+      {
+        icon: <FaGithub />,
+        title: 'Git : ',
+        desc: 'https://github.com/supergubber/marn-advance-auth',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'MERN sTACK',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://marn-advance-auth.onrender.com/login',
+      },
+    ],
+  },
 ]
 
 export const themes = [
